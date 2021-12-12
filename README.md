@@ -1,5 +1,7 @@
-# GambiConf Talk
+# GambiConf Talk 2021
 
-This might not be used and be actually presented.
+- Event: https://gambiconf.dev/
+- Date: 2021-12-11
+- Language: portuguese
 
-These are just some notes, a draft of the actual talk, still not polished at all.
+Obs: the files contained in the `drawings` folder can be opened/edited/etc on a software called Krita. It's a free and open source drawing tool.

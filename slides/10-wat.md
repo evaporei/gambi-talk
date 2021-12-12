@@ -4,9 +4,10 @@
 - 🤯🔨
 - runtime Rust
   1. Aloca uma arena (10kb)
+    - `__alloc(ARENA_SIZE)`
+    - https://github.com/AssemblyScript/assemblyscript/blob/main/std/assembly/rt/stub.ts
   2. Carrega contexto global do subgraph
     - `let globalVar = xxx`
   3. Executa `handler`s do subgraph
-- "Aloca uma arena (10kb)"
+- "Carrega contexto global do subgraph"
   - Chama o `__alloc` da runtime AssemblyScript *diretamente*
-- Problema/bug: chamamos o `__alloc` no Rust antes do código do subgraph
